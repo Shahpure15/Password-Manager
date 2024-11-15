@@ -1,0 +1,15 @@
+[package]
+name = "PasswordManager"
+version = "1.0.0"
+authors = []
+
+[addresses]
+PasswordManager = '0xbfd7a945e278aba93d503463246ee49342b135548a0222f11e86c3cfda035abf'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
